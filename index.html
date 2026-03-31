@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Style Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>🎬 MovieFlix</h2>
+
+    <input type="text" id="search" placeholder="Search movies...">
+
+    <select id="genre">
+        <option value="">All</option>
+        <option value="28">Action</option>
+        <option value="35">Comedy</option>
+        <option value="18">Drama</option>
+    </select>
+
+    <button id="toggle">🌙</button>
+</header>
+
+<!-- 🔥 HERO BANNER -->
+<section id="banner">
+    <div class="banner-content">
+        <h1 id="banner-title">Loading...</h1>
+        <p id="banner-desc"></p>
+    </div>
+</section>
+
+<h2 class="section-title">Trending Movies</h2>
+<main id="movies-container"></main>
+
+<script src="script.js"></script>
+</body>
+</html>

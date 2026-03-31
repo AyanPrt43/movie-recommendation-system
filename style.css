@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+input, select, button {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Banner */
+#banner {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.banner-content {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Section */
+.section-title {
+    margin: 20px;
+}
+
+/* Movies */
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Glassmorphism Cards */
+.movie {
+    margin: 15px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    transition: 0.3s;
+}
+
+.movie:hover {
+    transform: scale(1.08);
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info button {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Light Mode */
+.light {
+    background: white;
+    color: black;
+}
